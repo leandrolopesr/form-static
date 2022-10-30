@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cadastro | DEVs</title>
+
+</head>
+<body>
+
+   <div class="box">
+       <form action="">
+           <fieldset>
+               <legend><b>Complete suas informações</b></legend>
+               <br><br>
+               <div class="inputbox">
+                   <input type="text" name="nome" id="nome" class="inputUser" required>
+                   <label for="nome" class="labelinput">Nome Completo</label>
+               </div>
+               <br><br>
+
+               <div class="inputbox">
+                 <input type="text" name="email" id="email" class="inputUser" required>
+                 <label for="email" class="labelinput">Email</label>
+               </div>
+               <br><br>
+
+               <div class="inputbox">
+                 <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                 <label for="telefone" class="labelinput">Telefone</label>
+               </div>
+               <br><br>
+  
+               <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" required>
+            
+               <p>Genero:</p>
+               <input type="radio" id="feminino" name="genero" value="feminino" required>
+               <label for="feminino">Feminino</label>
+               <br>
+               <input type="radio" id="masculino" name="genero" value="masculino" required>
+               <label for="masculino">Masculino</label>
+               <br>
+               <input type="radio" id="outro" name="genero" value="outro" required>
+               <label for="outro">Outro</label>
+               <br><br>
+            
+               
+                <div class="senior"></div>
+                  <label  for="senioridade"><strong>Senioridade</strong></label>
+                  <select id="senioridade">
+                  <option selected disabled value="">Selecione</option>
+                  <option>Junior</option>
+                  <option>Pleno</option>
+                  <option>Senior</option>
+                  </select>
+                  <br><br>
+
+               
+                  
+                    <div id="campo">
+                        <label><strong>Selecione as tecnologias que utiliza: </strong></label><br><br>
+                        <input type="checkbox" id="tecnologia1" name="tecnologia1"value="HTML">    
+                        <label for="tecnologia1">HTML</label>  
+                        <input type="checkbox" id="tecnologia2" name="tecnologia2"value="CSS">    
+                        <label for="tecnologia2">CSS</label>
+                        <input type="checkbox" id="tecnologia3" name="tecnologia3"value="JavaScript">   
+                        <label for="tecnologia3">JavaScript</label>
+                        <input type="checkbox" id="tecnologia4" name="tecnologia4"value="PHP">
+                        <label for="tecnologia4">PHP</label>
+                        <input type="checkbox" id="tecnologia5" name="tecnologia5"value="C#">    
+                        <label for="tecnologia5">C#</label>
+                        <input type="checkbox" id="tecnologia6" name="tecnologia6"value="Python">    
+                        <label for="tecnologia6">Python</label>
+                        <input type="checkbox" id="tecnologia7" name="tecnologia7"value="Java">    
+                        <label for="tecnologia7">Java</label>
+                        <input type="checkbox" id="tecnologia8" name="tecnologia8"value="Ruby">    
+                        <label for="tecnologia8">Ruby</label>  
+                        <br></br>                 
+                      
+                      </div>
+
+                      <div class="inputbox">
+                        <input type="text" name="fale" id="fale" class="inputUser" required>
+                        <label for="fake" class="labelinput">Conte um pouco de você: </label>
+                      </div>
+                      <br>
+            <div>
+                <input type="submit" name="submit" id="submit">
+            </div>
+                    
+
+             </fieldset>
+
+                  
+ 
+
+
+          
+       </form>
+   </div>
+    
+</body>
+</html>
